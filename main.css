@@ -44,3 +44,11 @@ nounderline .p .h3{
 .word p {
     text-align: center;
 }
+
+.media-heading {
+    text-align: left;
+}
+
+.media-body p {
+    text-align: justify;
+}

@@ -1,3 +1,46 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px; /* sticky navbar */
+    margin-bottom: 60px; /* footer */
+}
+
+.jumbotron {
+    background: url('https://ww2.distek.com/blog/wp-content/uploads/2014/03/dictionary.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;    
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    background-color: #000000;
+    padding-left: 15px; 
+    padding-bottom: 5px;
+}
+
+.jumbotron p {
+    color: #ffffff;
+    background-color: #000000;
+    padding-left: 10px;   
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
 nounderline .p .h3{
 	text-decoration: none!important;
+}
+
+.word p {
+    text-align: center;
 }

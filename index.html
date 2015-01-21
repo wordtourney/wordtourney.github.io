@@ -2,63 +2,174 @@
 <html>
 
   <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <title>Word Tourney</title>
+    <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome Icons -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
 
   <body>
-    <div class="text-center">
-      <h1>Word Tourney</h1>
-      <p>A work in progress</p>
-    </div>
-    
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-		  <a href="/tourney-2011" class="nounderline">
-          <div class="thumbnail">
-            <img src="http://www.sportsbannerspennants.com/files/2034797/uploaded/79023%20OSU%20PowerHouse%20Bnnr.JPG" alt="">
-            <div class="caption">
-              <p>2011 Word Tourney Champion</p>
-              <h3>??? <small>???</small></h3>
-              <p> : ???</p>
-            </div>
-          </div>
-		  </a>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 col-xs-12">
-		  <a href="/tourney-2008" class="nounderline">
-          <div class="thumbnail">
-            <img src="http://www.sportsbannerspennants.com/files/2034797/uploaded/79023%20OSU%20PowerHouse%20Bnnr.JPG" alt="">
-            <div class="caption">
-              <p>2008 Word Tourney Champion</p>
-              <h3>car·cin·o·gen  <small class="text-right">noun</small></h3>
-              <p> : a substance that can cause cancer</p>
-            </div>
-          </div>
-		  </a>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 col-xs-12">
-		  <a href="/tourney-2007" class="nounderline">
-          <div class="thumbnail">
-            <img src="http://www.sportsbannerspennants.com/files/2034797/uploaded/79023%20OSU%20PowerHouse%20Bnnr.JPG" alt="">
-            <div class="caption">
-              <p>2007 Word Tourney Champion</p>
-              <h3>pon·tif·i·cate  <small class="text-right">verb</small></h3>
-              <p> : to speak or express your opinion about something in a way that shows you think you are always right</p>
-            </div>
-          </div>
-		  </a>
+    <!--Nav Bar-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <i class="fa fa-bars"></i>  
+        </button>
+        <div class="brand">
+          <a class="navbar-brand" href="#">
+            <span class="hidden-sm hidden-md hidden-lg">Word Tourney</span>
+            <i class="fa fa-wordpress hidden-xs"></i>
+          </a>  
         </div>
       </div>
-
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#currenttourney">Current Tourney</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#champions">Champions</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Past Tourneys <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">2008</a></li>
+              <li><a href="#">2009</a></li>
+              <li><a href="#">2011</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>  
     </div>
     
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="hidden-xs">Word Tourney</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+      </div>
+    </div>  
+     
+    <!-- Current Tournament -->  
+    <section id="currenttourney" class="section section-center section-hilite section-currenttourneys">
+      <div class="container">
+        <h2 class="section-title"><span>Word Tourney 2015</span></h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 1</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 2</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 3</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 4</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 5</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Match-up 6</h4>
+            <div class="row">
+              <div class="col-xs-6 word"><p>word 1</p></div>
+              <div class="col-xs-6 word"><p>word 2</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Bogg -->  
+    <section id="blog" class="section section-center section-hilite section-blog">
+      <div class="container">
+        <h2 class="section-title">Blog</h2>
+        <p>Stuff here.</p>
+      </div>
+    </section>
+    
+    <!-- Previous Champions -->  
+    <section id="champions" class="section section-center section-hilite section-champions">
+      <div class="container">
+        <h2 class="section-title">Previous Champions</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="thumbnail">
+              <img src="http://www.sportsbannerspennants.com/files/2034797/uploaded/79023%20OSU%20PowerHouse%20Bnnr.JPG" alt="">
+              <div class="caption">
+                <p>2011 Word Tourney Champion</p>  
+                <h3>??? <small>???</small></h3>
+                <p> : ???</p>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="thumbnail">
+              <img src="http://www.safetysignsandnotices.co.uk/images/D/GHS008_respiratory_dtld.gif" alt="">
+              <div class="caption">
+                <p>2008 Word Tourney Champion</p>
+                <h3>car·cin·o·gen  <small class="text-right">noun</small></h3>
+                <p> : a substance that can cause cancer</p>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="thumbnail">
+              <img src="http://blog.thecatmelon.com/wp-content/uploads/2012/03/keepcalmandpontificate.jpg" alt="">
+              <div class="caption">
+                <p>2007 Word Tourney Champion</p>
+                <h3>pon·tif·i·cate  <small class="text-right">verb</small></h3>
+                <p> : to speak or express your opinion about something in a way that shows you think you are always right</p>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </section>
+      
+    <section id="about" class="section section-center section-hilite section-about">
+      <div class="container">
+      
+      </div>
+    </section>
+      
+
+    
+      
+      
+    <!-- Scripts -->
+    <!-- JQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- Javascript -->
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

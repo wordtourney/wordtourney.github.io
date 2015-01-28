@@ -1,54 +1,19 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    padding-top: 50px; /* sticky navbar */
-    margin-bottom: 60px; /* footer */
-}
-
-.jumbotron {
-    background: url('https://ww2.distek.com/blog/wp-content/uploads/2014/03/dictionary.jpg');
+.full {
+    background: url('https://camo.githubusercontent.com/0ff1d09bf54facc8d32ecb62a9b6312dc6d15c34/68747470733a2f2f7777322e64697374656b2e636f6d2f626c6f672f77702d636f6e74656e742f75706c6f6164732f323031342f30332f64696374696f6e6172792e6a7067') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;    
+    -o-background-size: cover;
 }
 
-.jumbotron h1 {
-    color: #ffffff;
-    background-color: #000000;
-    padding-left: 15px; 
-    padding-bottom: 5px;
+.cover-text {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+	
+	display: flex;
+	align-items: center;
 }
 
-.jumbotron p {
-    color: #ffffff;
-    background-color: #000000;
-    padding-left: 10px;   
-}
-
-h2 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-nounderline .p .h3{
-	text-decoration: none!important;
-}
-
-.word p {
-    text-align: center;
-}
-
-.media-heading {
-    text-align: left;
-}
-
-.media-body p {
-    text-align: justify;
+.cover-text h1, h4 {
+	color: #FF5555;
 }

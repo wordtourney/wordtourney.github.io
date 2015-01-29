@@ -16,6 +16,7 @@
 
 .jumbotron h1, p {
 	color: #000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .highlighter {

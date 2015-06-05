@@ -1,6 +1,6 @@
 var main = function() {
   $('.oh-seven').click(function() {
-    $('.tourney-oh-seven').toggleClass('hidden').animate({height: '100%'},200);
+    $('.tourney-oh-seven').toggleClass('hidden');
     $('.tourney-oh-eight').addClass('hidden');
   });
   

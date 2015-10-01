@@ -1,7 +1,7 @@
 var main = function() {
   $('.oh-seven').click(function() {
-    $('.tourney-oh-seven').hide(1000);
-    $('.tourney-oh-eight').animate({height: 100%}, 1000);
+    $('.tourney-oh-seven').animate({height: 100%}, 1000);
+    $('.tourney-oh-eight').hide(1000);
   });
   
   $('.oh-eight').click(function() {

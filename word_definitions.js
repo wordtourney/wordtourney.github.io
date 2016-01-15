@@ -1,6 +1,6 @@
 // Standard Rotation: CONDOR, SNAKE, GIMLI, LENNI/CARLOS
 app.controller('MainController', ['$scope', function($scope) {
-  $scope.definitions = [
+  $scope.definition = [
     {
       def_word: '',
       def_partofspeech: '',

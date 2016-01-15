@@ -8,9 +8,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Angular JS -->
+    <script src="angular.min.js"></script>
   </head>
 
-  <body>
+  <body ng-app="WordTourney">
     <div class="vertical-center">
       <div class="container">
         <div class="hidden row hilite-yellow">
@@ -183,7 +185,17 @@
         </div>
         
         
-        <!-- 2008 Tourney -->
+        <!-- Definitions -->
+        <div class="main" ng-controller="MainController">
+          <div class="row">
+            <div ng-repeat="word in definition">
+              <div class="tourney-definition col-md-12 {{ word.def_class }}">
+                <p>{{ word.def_word }}  {{ word.def_partofspeech }} - {{ word.def_def }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
         
       </div>
     </div>
@@ -196,5 +208,9 @@
     <!-- Bootstrap -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
+    <!-- Controllers -->
+    <script src="MainController.js"></script>
+    <!-- Directives -->
+    <script src="word_definitions.js"></script>
   </body>
 </html>

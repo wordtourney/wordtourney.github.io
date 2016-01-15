@@ -187,10 +187,10 @@
         
         <!-- Definitions -->
         <div class="main" ng-controller="MainController">
-          <div class="row hilite-black">
+          <div class="row">
             <div ng-repeat="word in definition">
-              <div class="tourney col-md-12 {{ word.def_class }}">
-                <p>{{ word.def_word }}  {{ word.def_partofspeech }} - {{ word.def_definition }}</p>
+              <div class="tourney col-md-12 hilite-black">
+                <p class="text-center">{{ word.def_word }}  {{ word.def_partofspeech }} - {{ word.def_definition }}</p>
               </div>
             </div>
           </div>

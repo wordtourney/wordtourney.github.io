@@ -1,3 +1,5 @@
+var app = angular.module('WordTourney', []);
+
 var main = function() {
   $('.oh-seven').click(function() {
     $('.tourney-oh-seven').toggleClass('hidden');

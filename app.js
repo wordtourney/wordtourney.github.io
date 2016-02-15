@@ -11,6 +11,8 @@ var main = function() {
     $('.tourney-oh-seven').addClass('hidden');
   });
 
+  $('[data-toggle="tooltip"]').tooltip();
+  
 }
 
 $(document).ready(main);
